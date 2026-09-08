@@ -1,3 +1,6 @@
+def main():
+    pass
+
 def collatz(number):
     if number % 2 == 0:
         print(number // 2)
@@ -11,3 +14,4 @@ number = int(input("Insert number: "))
 
 while number != 1:
     number = collatz(number)
+
